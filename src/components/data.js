@@ -91,16 +91,15 @@ export const questions= [
     },
     {
         id:14,
-        question:'A quale artista viene attribuito il simbolo rappresentato?',
-        img: '/images/Avicii-logo.png',
+        question:'Chi suona la canzone "Animals"?',
         options: ['Avicii', 'David Guetta','Akon','Martin Garrix' ],
-         answer: 'Avicii'
+         answer: 'Martin Garrix'
     },
     {
         id:15,
-        question:'Finisci la frase della canzone "Ho perso la testa troppe volte da ragazzino.. "di Fabri Fibra',
-        options: ['cercando risposte in un mondo confuso e vicino al casino', 'A ogni flash mi nascondevo in uno stanzino','tra strade sbagliate e amici finiti male','inseguendo sogni troppo grandi per le mie mani' ],
-         answer: 'A ogni flash mi nascondevo in uno stanzino'
+        question:'Quale artista italiano canta "Bugiardo"?',
+        options: ['Cesare Cremonini', 'Gianni Morandi','Fabri Fibra','Baby K' ],
+         answer: 'Fabri Fibra'
     },
     {
         id:16,
