@@ -1,0 +1,182 @@
+@media screen and (max-width: 768px){
+.main-section{
+
+    width: 90%;
+    max-height: 90vh;
+    padding: 40px 20px;
+ 
+}
+
+.domanda{
+ 
+  font-size: 22px;
+  
+}
+.image-container{
+  
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 60%;
+
+}
+.image{
+  width: 100%;
+  height: auto;
+  
+  
+}
+
+.optionelement{
+  background-color: #fff;
+  width: 80%;
+  padding: 15px 30px;
+  font-size: 18px;
+  
+}
+
+.option-correct{
+  background-color: #70e000;
+}
+.option-wrong{
+  background-color: red;
+   animation: wobble 0.6s;
+}
+.end-section{
+  
+  
+  padding: 10px;
+  
+  
+}
+.nextbtn{
+  width: 50%;
+  padding: 15px 30px;
+  
+  
+}
+
+.result-section{
+  
+  text-align: center;
+   font-size: 18px;
+   
+}
+
+
+.Restart-btn{
+  font-size: 20px;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+padding: 15px 70px;
+  
+margin-top: 30px;
+}
+
+}
+/* ipad air/pro/surface 7*/
+@media (min-width: 800px) and (max-width:1280px){
+    .domanda{
+ background-color: violet;
+  font-size: 30px;
+  
+}
+.main-section{
+
+    width: 90%;
+    max-height: 100vh;
+    padding: 40px 20px;
+    
+}
+
+.optionelement{
+  background-color: #fff;
+  width: 80%;
+  padding: 20px 30px;
+  font-size: 25px;
+  
+}
+
+.option-correct{
+  background-color: #70e000;
+}
+.option-wrong{
+  background-color: red;
+   animation: wobble 0.6s;
+}
+.image-container{
+  
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 60%;
+
+}
+.image{
+  width: 90%;
+height: auto;
+  
+  
+}
+
+
+.nextbtn{
+  width: 30%;
+  padding: 18px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+}
+}
+/*nest hub */
+@media screen and (min-width: 1024px) and (max-height: 800px) {
+    .body-section{
+    width: 100%;
+    height:auto;
+   
+}
+   .main-section {
+    height: auto;
+    max-height: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    overflow-y: auto;
+  }
+.image-container{
+  
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 60%;
+ 
+}
+.image{
+  width: 70% !important;
+height: auto;
+}
+  .optionelement {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .domanda {
+    font-size: 24px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .nextbtn {
+    width: 60%;
+    font-size: 16px;
+  }
+}
