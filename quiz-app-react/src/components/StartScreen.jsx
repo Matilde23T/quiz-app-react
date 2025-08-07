@@ -16,7 +16,18 @@ export default function DisplayElement({onStart}){
         <button onClick={onStart} className='btn-start'> Inizia quiz</button>
         </div>
         </div>
+        
         </div>
+
+
+ <footer className="footer-section">
+<p>© Copyright Matilde Tiengo 2025  
+  <a href="https://github.com/Matilde23T" className="icons">
+    <i className="fa-brands fa-github fa-lg"></i>
+    </a>    </p>   
+</footer>
+
+       
         </>
     )
 }
