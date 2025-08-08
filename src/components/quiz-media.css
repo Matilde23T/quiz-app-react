@@ -1,3 +1,39 @@
+@media screen and (max-width: 375px) {
+  .image-container {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height: 25vh; 
+    object-fit: contain;
+  }
+
+  .main-section {
+    overflow-y: auto; 
+  }
+}
+
+/*Surface Duo o device con altezza ridotta */
+@media screen and (max-width: 540px) and (max-height: 720px) {
+  .image-container {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .image {
+    max-width: 95%;
+    max-height: 28vh;
+    object-fit: contain;
+  }
+
+  .main-section {
+    overflow-y: auto; /* previene lo scoppio del layout */
+  }
+}
+
+
 @media screen and (max-width: 768px){
 .main-section{
 
@@ -10,24 +46,19 @@
 .domanda{
  
   font-size: 22px;
-  
-}
-.image-container{
-  
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  height: 50%;
-  
-
-}
-.image{
-  width: 100%;
-  height: auto;
-  
-  
+  margin-bottom: 0px;
 }
 
+ .image-container {
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height: 30vh; /* più bassa per evitare che riempia lo schermo */
+    object-fit: contain;
+  }
 .optionelement{
   background-color: #fff;
   width: 80%;
@@ -106,21 +137,16 @@ margin-top: 30px;
   background-color: red;
    animation: wobble 0.6s;
 }
-.image-container{
-  
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  height: 60%;
+.image-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 
-}
-.image{
-  width: 90%;
-height: auto;
-  
-  
-}
-
+  .image {
+    max-width: 90%;
+    max-height: 40vh;
+    object-fit: contain;
+  }
 
 .nextbtn{
   width: 30%;
@@ -156,18 +182,19 @@ height: auto;
     padding: 20px;
     overflow-y: auto;
   }
-.image-container{
-  
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  height: 60%;
- 
-}
-.image{
-  width: 70% !important;
-height: auto;
-}
+
+.image-container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-height: 60%;
+  }
+
+  .image {
+    max-width: 70% !important;
+    height: auto;
+    max-height: 45vh;
+    object-fit: contain;
+  }
   .optionelement {
     width: 90%;
     font-size: 18px;
@@ -185,5 +212,17 @@ height: auto;
   .nextbtn {
     width: 60%;
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1180px) and (max-height: 1050px) {
+  .image {
+    max-height: 30vh; /* meno alta */
+    object-fit: contain;
+  }
+
+  .image-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }

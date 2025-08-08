@@ -44,8 +44,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     
     list-style-type: none;
     text-align: center;  
-     
     
+    padding: 0;
 }
 
 
@@ -58,7 +58,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   border: none;
   outline: none;
-  margin-top: 20px;
+  margin: 10px;
 }
 
 .option-correct{
@@ -93,7 +93,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 .end-section{
   
-  margin-top: 20px;
+  margin-top: 5px;
   padding: 15px;
   text-align: center;
   
@@ -112,23 +112,20 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   
 }
 
-
-.image-container{
-  
+.image-container {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
+  max-width: 100%;
+  overflow: hidden; /* evita lo sbordo */
+}
+
+.image {
+  max-width: 100%;
   height: auto;
-  
-
+  max-height: 50vh; /* non supera metà schermo */
+  object-fit: contain; /* mantiene proporzioni */
 }
-.image{
-  width:auto;
- max-height: 320px;
-  
-  
-}
-
 .result-section{
   
   text-align: center;
